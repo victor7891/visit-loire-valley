@@ -88,10 +88,6 @@ export default function Footer() {
                 <span>info@loirevalleycastles.com</span>
               </div>
               <div className="flex items-center space-x-2">
-                <Phone className="w-4 h-4" />
-                <span>+33 1 23 45 67 89</span>
-              </div>
-              <div className="flex items-center space-x-2">
                 <ExternalLink className="w-4 h-4" />
                 <a 
                   href="https://www.tiqets.com" 
