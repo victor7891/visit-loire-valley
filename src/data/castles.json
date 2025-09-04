@@ -1,0 +1,137 @@
+{
+  "castles": [
+    {
+      "id": "chambord",
+      "name": "Château de Chambord",
+      "shortDescription": "Iconic Renaissance château and the largest in the Loire Valley",
+      "location": "Chambord",
+      "region": "Loir-et-Cher",
+      "heroImage": "https://upload.wikimedia.org/wikipedia/commons/4/47/Chambord_Castle_Northwest_facade.jpg",
+      "gallery": [
+        "https://images.unsplash.com/photo-1539650116574-75c0c6d73c0e?w=800&fit=crop",
+        "https://images.unsplash.com/photo-1566405367390-36e40e04f04d?w=800&fit=crop"
+      ],
+      "ticketTypes": [
+        {
+          "id": "adult",
+          "name": "Adult Ticket",
+          "price": "€16",
+          "affiliateUrl": "https://www.tiqets.com/en/chambord-tickets-l104159/"
+        },
+        {
+          "id": "child",
+          "name": "Child Ticket (under 18, EU residents)",
+          "price": "Free",
+          "affiliateUrl": "https://www.tiqets.com/en/chambord-tickets-l104159/"
+        }
+      ],
+      "highlights": [
+        "Double helix staircase designed by Leonardo da Vinci",
+        "Rooftop terraces with 360° views",
+        "Vast hunting grounds and gardens"
+      ],
+      "visitDuration": "2-3 hours"
+    },
+    {
+      "id": "chenonceau",
+      "name": "Château de Chenonceau",
+      "shortDescription": "The 'Ladies’ Castle', built over the River Cher",
+      "location": "Chenonceaux",
+      "region": "Indre-et-Loire",
+      "heroImage": "https://upload.wikimedia.org/wikipedia/commons/3/30/Chenonceau-20050320.jpg",
+      "gallery": [
+        "https://images.unsplash.com/photo-1571756403516-4ab3d2aaa73e?w=800&fit=crop",
+        "https://images.unsplash.com/photo-1625646606010-4d3f8832bc54?w=800&fit=crop"
+      ],
+      "ticketTypes": [
+        {
+          "id": "adult",
+          "name": "Adult Ticket",
+          "price": "€15",
+          "affiliateUrl": "https://www.tiqets.com/en/chenonceau-tickets-l104158/"
+        }
+      ],
+      "highlights": [
+        "Gallery spanning the river",
+        "Lavish Renaissance gardens",
+        "Influence of powerful women throughout history"
+      ],
+      "visitDuration": "2-3 hours"
+    },
+    {
+      "id": "amboise",
+      "name": "Château Royal d'Amboise",
+      "shortDescription": "Royal residence and final resting place of Leonardo da Vinci",
+      "location": "Amboise",
+      "region": "Indre-et-Loire",
+      "heroImage": "https://www.chateau-amboise.com/wp-content/uploads/2022/08/amboise-castle.jpg",
+      "gallery": [
+        "https://images.unsplash.com/photo-1631014007517-6d9a4e0f1d53?w=800&fit=crop"
+      ],
+      "ticketTypes": [
+        {
+          "id": "adult",
+          "name": "Adult Ticket",
+          "price": "€13.50",
+          "affiliateUrl": "https://www.tiqets.com/en/amboise-tickets-l104162/"
+        }
+      ],
+      "highlights": [
+        "Chapel containing Leonardo da Vinci’s tomb",
+        "Panoramic views of the Loire River",
+        "Residence of French kings"
+      ],
+      "visitDuration": "1.5-2 hours"
+    },
+    {
+      "id": "blois",
+      "name": "Château Royal de Blois",
+      "shortDescription": "A blend of Gothic, Renaissance, and Classical architecture",
+      "location": "Blois",
+      "region": "Loir-et-Cher",
+      "heroImage": "https://www.blois.fr/sites/default/files/styles/original/public/media/images/blois-chateauroyal-201506-jpthibault-jdavid_0.jpg?itok=aO2L6qsx",
+      "gallery": [
+        "https://images.unsplash.com/photo-1622987652111-893475c93386?w=800&fit=crop"
+      ],
+      "ticketTypes": [
+        {
+          "id": "adult",
+          "name": "Adult Ticket",
+          "price": "€12",
+          "affiliateUrl": "https://www.tiqets.com/en/blois-tickets-l104160/"
+        }
+      ],
+      "highlights": [
+        "Dramatic spiral staircase",
+        "Residence of 7 French kings",
+        "Sound & light evening shows"
+      ],
+      "visitDuration": "1.5-2 hours"
+    },
+    {
+      "id": "villandry",
+      "name": "Château de Villandry",
+      "shortDescription": "Famous for its stunning Renaissance gardens",
+      "location": "Villandry",
+      "region": "Indre-et-Loire",
+      "heroImage": "https://www.campinglesgranges.fr/wp-content/uploads/2022/01/chateau-villandry.jpg",
+      "gallery": [
+        "https://images.unsplash.com/photo-1624022189015-64b06cb35c50?w=800&fit=crop"
+      ],
+      "ticketTypes": [
+        {
+          "id": "adult",
+          "name": "Adult Ticket (Castle + Gardens)",
+          "price": "€12",
+          "affiliateUrl": "https://www.tiqets.com/en/villandry-tickets-l104161/"
+        }
+      ],
+      "highlights": [
+        "Ornamental Renaissance gardens",
+        "Terraced landscapes",
+        "Peaceful interiors and history of restoration"
+      ],
+      "visitDuration": "2 hours"
+    }
+  ]
+}
