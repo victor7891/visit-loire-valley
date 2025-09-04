@@ -30,7 +30,17 @@
         "Rooftop terraces with 360° views",
         "Vast hunting grounds and gardens"
       ],
-      "visitDuration": "2-3 hours"
+      "visitDuration": "2-3 hours",
+      "fullDescription": [
+        "Surrounded by a fairy tale forest, Château de Chambord is a wonderland packed with half a millennium of French history and unique architectural details like a double-spiral staircase and design elements attributed to Leonardo da Vinci.",
+        "Welcome to the largest and most majestic château in the Loire Valley. This landmark building is an architectural triumph that remains a symbol of the French Renaissance in Europe, and throughout the world.",
+        "In the 16th century, the king delighted in inviting his circle to Château de Chambord, and with a visit, you can understand why – with more than 400 rooms, 77 staircases, 282 fireplaces, and over 200 chimneys, this luxurious venue is impressive.",
+        "There's more to be explored outside. Rent a boat to row on the château's canal, or take a walking trail to see the diverse fauna and flora in the surrounding forest."
+      ],
+      "calendarWidget": {
+        "productId": "980056",
+        "campaign": "Château de Chambord"
+      }      
     },
     {
       "id": "chenonceau",
@@ -56,7 +66,14 @@
         "Lavish Renaissance gardens",
         "Influence of powerful women throughout history"
       ],
-      "visitDuration": "2-3 hours"
+      "visitDuration": "2-3 hours",
+      "fullDescription": [
+        "Step into the magical Château de Chenonceau, proudly spanning the River Cher since the 12th century. Explore the Royal Gardens, Dômes Gallery, Carriage Gallery, and the château itself.",
+        "Known as the 'Ladies' Castle', Chenonceau was shaped and preserved by a succession of powerful women throughout history.",
+        "Most of what you see today was built between 1513 and 1517 by Thomas Bohier and Catherine Briçonnet. The only remnant of the medieval château is the haunting dungeon tower.",
+        "Inside, discover an extraordinary collection of Renaissance furniture, tapestries, and paintings by European masters of the 16th to 18th centuries.",
+        "The artwork and gardens reflect the château’s unique heritage and the influential women who left their mark here."
+      ]
     },
     {
       "id": "amboise",
@@ -81,7 +98,12 @@
         "Panoramic views of the Loire River",
         "Residence of French kings"
       ],
-      "visitDuration": "1.5-2 hours"
+      "visitDuration": "1.5-2 hours",
+      "fullDescription": [
+        "Once a Renaissance palace for French kings, Amboise was a favorite of King Francis I and remains a jewel of Italian-inspired architecture.",
+        "The Saint Hubert Chapel, reopened in June 2024 after major restoration, houses Leonardo da Vinci’s tomb in a dazzling setting of stone and gold.",
+        "From the château’s terraces, admire one of the Loire Valley’s most breathtaking panoramas, overlooking UNESCO World Heritage landscapes."
+      ]
     },
     {
       "id": "blois",
@@ -131,7 +153,12 @@
         "Terraced landscapes",
         "Peaceful interiors and history of restoration"
       ],
-      "visitDuration": "2 hours"
+      "visitDuration": "2 hours",
+      "fullDescription": [
+        "The Royal Château de Blois offers a sweeping journey through French history in one magnificent monument.",
+        "Once home to kings and queens, its architecture blends Gothic, Renaissance, and Classical styles.",
+        "Walk in the footsteps of figures like Joan of Arc and Henry IV, and explore unique highlights such as the Chamber of Secrets."
+      ]
     }
   ]
 }

@@ -1,6 +1,7 @@
 import { useParams, Link } from 'react-router-dom'
 import { MapPin, Clock, ExternalLink } from 'lucide-react'
 import castlesData from '../data/castles.json'
+import TiqetsCalendarWidget from '../components/ui/TiqetsCalendarWidget.jsx'
 
 export default function CastleDetail() {
   const { id } = useParams()
@@ -41,8 +42,13 @@ export default function CastleDetail() {
           <div className="lg:col-span-2">
             <div className="bg-white rounded-lg p-8 shadow-md mb-8">
               <h2 className="text-3xl font-bold mb-4">About {castle.name}</h2>
-              <p className="text-gray-600 text-lg mb-6">{castle.shortDescription}</p>
-              
+
+              {castle.fullDescription ? castle.fullDescription.map((description, index) => (
+                <p key={index} className="text-gray-600 text-lg mb-6">{description}</p>
+              )) : (
+                <p className="text-gray-600 text-lg mb-6">{castle.shortDescription}</p>
+              )}
+        
               <h3 className="text-2xl font-bold mb-4">Highlights</h3>
               <ul className="space-y-2">
                 {castle.highlights.map((highlight, index) => (
@@ -55,33 +61,44 @@ export default function CastleDetail() {
             </div>
           </div>
 
-          {/* Sidebar - Tickets */}
+          {/* Booking Sidebar */}
           <div className="lg:col-span-1">
-            <div className="bg-white rounded-lg p-6 shadow-md sticky top-8">
-              <h3 className="text-2xl font-bold mb-6">Book Your Visit</h3>
-              <div className="space-y-4">
-                {castle.ticketTypes.map(ticket => (
-                  <div key={ticket.id} className="border rounded-lg p-4">
-                    <div className="flex justify-between items-start mb-3">
-                      <h4 className="font-semibold">{ticket.name}</h4>
-                      <span className="text-xl font-bold text-blue-600">{ticket.price}</span>
+            
+            {castle.calendarWidget ? (
+              <TiqetsCalendarWidget 
+                productId={castle.calendarWidget.productId}
+                campaign={castle.calendarWidget.campaign}
+                castleName={castle.name}
+              />
+            ) : (
+              // Fallback to manual ticket links
+              <div className="bg-white rounded-xl p-6 shadow-lg sticky top-8">
+                <h3 className="text-2xl font-bold mb-6">Book Your Visit</h3>
+                <div className="space-y-4">
+                  {castle.ticketTypes.map(ticket => (
+                    <div key={ticket.id} className="border rounded-lg p-4">
+                      <div className="flex justify-between items-start mb-3">
+                        <h4 className="font-semibold">{ticket.name}</h4>
+                        <span className="text-xl font-bold text-blue-600">{ticket.price}</span>
+                      </div>
+                      
+                      <a 
+                        href={ticket.affiliateUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-full bg-blue-600 text-white px-4 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center"
+                      >
+                        Book Now
+                      </a>
                     </div>
-                    
-                      <a href={ticket.affiliateUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="w-full bg-blue-600 text-white px-4 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center gap-2"
-                    >
-                      Book Now
-                      <ExternalLink className="w-4 h-4" />
-                    </a>
-                  </div>
-                ))}
+                  ))}
+                </div>
               </div>
-            </div>
+            )}
           </div>
         </div>
 
+        {/* Back to castles link */}
         <div className="mt-8">
           <Link 
             to="/castles"
