@@ -11,7 +11,7 @@ export default function HomePage() {
       <SEOHead 
         title="Loire Valley Castles - Skip-the-line tickets to French châteaux"
         description="Discover magnificent French châteaux in Loire Valley. Book skip-the-line tickets for Chambord, Chenonceau, Amboise, Villandry & Blois. UNESCO World Heritage sites."
-        url="https://loirevalleycastles.com"
+        url="https://www.visitloirecastles.com/"
       />
       
       <div className="min-h-screen">
