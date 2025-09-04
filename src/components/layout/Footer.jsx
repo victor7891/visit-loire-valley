@@ -85,7 +85,7 @@ export default function Footer() {
             <div className="space-y-3 text-gray-300">
               <div className="flex items-center space-x-2">
                 <Mail className="w-4 h-4" />
-                <span>info@loirevalleycastles.com</span>
+                <span>info@visitloirecastles.com</span>
               </div>
               <div className="flex items-center space-x-2">
                 <ExternalLink className="w-4 h-4" />
@@ -105,7 +105,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-gray-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-300 text-sm">
-            © 2024 Loire Valley Castles. All rights reserved.
+            © 2024 Visit Loire Castles. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#privacy" className="text-gray-300 hover:text-white text-sm transition-colors">
