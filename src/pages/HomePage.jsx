@@ -32,7 +32,7 @@ export default function HomePage() {
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {castlesData.castles.map(castle => (
+            {castlesData.castles.slice(0, 3).map(castle => (
               <CastleCard key={castle.id} castle={castle} />
             ))}
           </div>
