@@ -14,8 +14,14 @@ export default function Header() {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 text-xl font-bold text-blue-900 hover:text-blue-700 transition-colors">
             <MapPin className="w-8 h-8" />
-            <span className="hidden sm:block">Loire Valley Castles</span>
-            <span className="sm:hidden">Loire</span>
+            <div className="hidden sm:block">
+              <div className="text-lg leading-tight">Visit</div>
+              <div className="text-lg leading-tight">Loire Castles</div>
+            </div>
+            <span className="sm:hidden">
+              <div className="text-lg leading-tight">Visit</div>
+              <div className="text-lg leading-tight">Loire Castles</div>
+            </span>
           </Link>
 
           {/* Desktop Navigation */}
