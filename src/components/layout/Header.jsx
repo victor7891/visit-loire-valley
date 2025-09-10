@@ -9,19 +9,16 @@ export default function Header() {
 
   return (
     <header className="bg-white shadow-md sticky top-0 z-50">
-      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <nav className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
+          
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2 text-xl font-bold text-blue-900 hover:text-blue-700 transition-colors">
-            <MapPin className="w-8 h-8" />
-            <div className="hidden sm:block">
-              <div className="text-lg leading-tight">Visit</div>
-              <div className="text-lg leading-tight">Loire Castles</div>
-            </div>
-            <span className="sm:hidden">
-              <div className="text-lg leading-tight">Visit</div>
-              <div className="text-lg leading-tight">Loire Castles</div>
-            </span>
+          <Link to="/" className="flex items-center space-x-3 text-xl font-bold text-blue-900 hover:text-blue-700 transition-colors">
+            <img 
+              src="/logo-visit-loire-castles-02.svg" 
+              alt="Visit Loire Castles" 
+              className="h-[50px] w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}

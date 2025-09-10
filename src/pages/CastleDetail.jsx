@@ -1,4 +1,5 @@
 import { useParams, Link } from 'react-router-dom'
+import { useEffect } from 'react'
 import { MapPin, Clock, ExternalLink } from 'lucide-react'
 import castlesData from '../data/castles.json'
 import TiqetsCalendarWidget from '../components/ui/TiqetsCalendarWidget.jsx'
@@ -6,6 +7,11 @@ import TiqetsCalendarWidget from '../components/ui/TiqetsCalendarWidget.jsx'
 export default function CastleDetail() {
   const { id } = useParams()
   const castle = castlesData.castles.find(c => c.id === id)
+
+  // Scroll to top when component mounts or when castle ID changes
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [id])
 
   if (!castle) {
     return <div>Castle not found</div>

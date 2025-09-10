@@ -15,13 +15,7 @@
         {
           "id": "adult",
           "name": "Adult Ticket",
-          "price": "€16",
-          "affiliateUrl": "https://www.tiqets.com/en/chambord-tickets-l104159/"
-        },
-        {
-          "id": "child",
-          "name": "Child Ticket (under 18, EU residents)",
-          "price": "Free",
+          "price": "from 19€",
           "affiliateUrl": "https://www.tiqets.com/en/chambord-tickets-l104159/"
         }
       ],
@@ -73,7 +67,11 @@
         "Most of what you see today was built between 1513 and 1517 by Thomas Bohier and Catherine Briçonnet. The only remnant of the medieval château is the haunting dungeon tower.",
         "Inside, discover an extraordinary collection of Renaissance furniture, tapestries, and paintings by European masters of the 16th to 18th centuries.",
         "The artwork and gardens reflect the château’s unique heritage and the influential women who left their mark here."
-      ]
+      ],
+      "calendarWidget": {
+        "productId": "977880",
+        "campaign": "Château de Chenonceau"
+      }
     },
     {
       "id": "amboise",
@@ -103,7 +101,11 @@
         "Once a Renaissance palace for French kings, Amboise was a favorite of King Francis I and remains a jewel of Italian-inspired architecture.",
         "The Saint Hubert Chapel, reopened in June 2024 after major restoration, houses Leonardo da Vinci’s tomb in a dazzling setting of stone and gold.",
         "From the château’s terraces, admire one of the Loire Valley’s most breathtaking panoramas, overlooking UNESCO World Heritage landscapes."
-      ]
+      ],
+      "calendarWidget": {
+        "productId": "977796",
+        "campaign": "Château d'Amboise"
+      }
     },
     {
       "id": "blois",
@@ -128,7 +130,11 @@
         "Residence of 7 French kings",
         "Sound & light evening shows"
       ],
-      "visitDuration": "1.5-2 hours"
+      "visitDuration": "1.5-2 hours",
+      "calendarWidget": {
+        "productId": "1008168",
+        "campaign": "Château Royal de Blois"
+      }
     },
     {
       "id": "villandry",
@@ -158,7 +164,11 @@
         "The Royal Château de Blois offers a sweeping journey through French history in one magnificent monument.",
         "Once home to kings and queens, its architecture blends Gothic, Renaissance, and Classical styles.",
         "Walk in the footsteps of figures like Joan of Arc and Henry IV, and explore unique highlights such as the Chamber of Secrets."
-      ]
+      ],
+      "calendarWidget": {
+        "productId": "1008266",
+        "campaign": "Château de Villandry"
+      }
     }
   ]
 }

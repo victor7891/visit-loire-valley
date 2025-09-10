@@ -42,7 +42,7 @@ export default function TiqetsCalendarWidget({ productId, campaign, castleName }
         data-product-id={productId}
         data-language="en" 
         data-currency="EUR" 
-        data-partner="expo-barcelona.com-179143"
+        data-partner="visitloirecastels"
         data-tq-campaign={campaign}
         className="min-h-[300px]"
       />
