@@ -45,42 +45,9 @@ export default function CastleDetail() {
 
       <div className="max-w-6xl mx-auto px-4 py-12">
         <div className="grid lg:grid-cols-3 gap-12">
-          {/* Main Content */}
-          <div className="lg:col-span-2">
-            <div className="bg-white rounded-lg p-8 shadow-md mb-8">
-              <h2 className="text-3xl font-bold mb-4">About {castle.name}</h2>
-
-              {castle.fullDescription ? castle.fullDescription.map((description, index) => (
-                <p key={index} className="text-gray-600 text-lg mb-6">{description}</p>
-              )) : (
-                <p className="text-gray-600 text-lg mb-6">{castle.shortDescription}</p>
-              )}
-        
-              <h3 className="text-2xl font-bold mb-4">Highlights</h3>
-              <ul className="space-y-2">
-                {castle.highlights.map((highlight, index) => (
-                  <li key={index} className="flex items-start gap-2">
-                    <span className="text-blue-600 mt-1">•</span>
-                    <span className="text-gray-700">{highlight}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            {/* Gallery Section */}
-            {castle.gallery && castle.gallery.length > 0 && (
-              <div className="bg-white rounded-lg p-8 shadow-md">
-                <h3 className="text-2xl font-bold mb-6">Photo Gallery</h3>
-                <Gallery 
-                  images={castle.gallery} 
-                  alt={castle.name}
-                />
-              </div>
-            )}
-          </div>
-
-          {/* Booking Sidebar */}
-          <div className="lg:col-span-1">
+          
+          {/* Booking Sidebar - appears first on mobile */}
+          <div className="lg:col-span-1 order-1 lg:order-2">
             
             {castle.calendarWidget ? (
               <TiqetsCalendarWidget 
@@ -111,6 +78,40 @@ export default function CastleDetail() {
                     </div>
                   ))}
                 </div>
+              </div>
+            )}
+          </div>
+
+          {/* Main Content - appears second on mobile */}
+          <div className="lg:col-span-2 order-2 lg:order-1">
+            <div className="bg-white rounded-lg p-8 shadow-md mb-8">
+              <h2 className="text-3xl font-bold mb-4">About {castle.name}</h2>
+
+              {castle.fullDescription ? castle.fullDescription.map((description, index) => (
+                <p key={index} className="text-gray-600 text-lg mb-6">{description}</p>
+              )) : (
+                <p className="text-gray-600 text-lg mb-6">{castle.shortDescription}</p>
+              )}
+        
+              <h3 className="text-2xl font-bold mb-4">Highlights</h3>
+              <ul className="space-y-2">
+                {castle.highlights.map((highlight, index) => (
+                  <li key={index} className="flex items-start gap-2">
+                    <span className="text-blue-600 mt-1">•</span>
+                    <span className="text-gray-700">{highlight}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Gallery Section */}
+            {castle.gallery && castle.gallery.length > 0 && (
+              <div className="bg-white rounded-lg p-8 shadow-md">
+                <h3 className="text-2xl font-bold mb-6">Photo Gallery</h3>
+                <Gallery 
+                  images={castle.gallery} 
+                  alt={castle.name}
+                />
               </div>
             )}
           </div>
