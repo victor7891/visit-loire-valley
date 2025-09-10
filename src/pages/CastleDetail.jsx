@@ -2,7 +2,8 @@ import { useParams, Link } from 'react-router-dom'
 import { useEffect } from 'react'
 import { MapPin, Clock, ExternalLink } from 'lucide-react'
 import castlesData from '../data/castles.json'
-import TiqetsCalendarWidget from '../components/ui/TiqetsCalendarWidget.jsx'
+import TiqetsCalendarWidget from '../components/ui/TiqetsCalendarWidget'
+import Gallery from '../components/ui/Gallery'
 
 export default function CastleDetail() {
   const { id } = useParams()
@@ -65,6 +66,17 @@ export default function CastleDetail() {
                 ))}
               </ul>
             </div>
+
+            {/* Gallery Section */}
+            {castle.gallery && castle.gallery.length > 0 && (
+              <div className="bg-white rounded-lg p-8 shadow-md">
+                <h3 className="text-2xl font-bold mb-6">Photo Gallery</h3>
+                <Gallery 
+                  images={castle.gallery} 
+                  alt={castle.name}
+                />
+              </div>
+            )}
           </div>
 
           {/* Booking Sidebar */}

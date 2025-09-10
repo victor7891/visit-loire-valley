@@ -10,7 +10,9 @@
       "gallery": [
         "/chambord/chateau-chambord-02.jpg",
         "/chambord/chateau-chambord-03.jpg",
-        "/chambord/chateau-chambord-04.jpg"
+        "/chambord/chateau-chambord-04.jpg",
+        "/chambord/chateau-chambord-01.jpg",
+        "/chambord/chateau-chambord-05.jpg"
       ],
       "ticketTypes": [
         {
@@ -47,7 +49,8 @@
       "gallery": [
         "/chenonceau/chateau-chenonceau-02.jpg",
         "/chenonceau/chateau-chenonceau-03.jpg",
-        "/chenonceau/chateau-chenonceau-04.jpg"
+        "/chenonceau/chateau-chenonceau-04.jpg",
+        "/chenonceau/chateau-chenonceau-01.png"
       ],
       "ticketTypes": [
         {
@@ -81,11 +84,11 @@
       "shortDescription": "Royal residence and final resting place of Leonardo da Vinci",
       "location": "Amboise",
       "region": "Indre-et-Loire",
-      "heroImage": "https://www.chateau-amboise.com/wp-content/uploads/2022/08/amboise-castle.jpg",
+      "heroImage": "/amboise/chateau-amboise-01.jpg",
       "gallery": [
-        "/chambord/chateau-chambord-02.jpg",
-        "/chambord/chateau-chambord-03.jpg",
-        "/chambord/chateau-chambord-04.jpg"
+        "/amboise/chateau-amboise-02.jpg",
+        "/amboise/chateau-amboise-03.jpg",
+        "/amboise/chateau-amboise-01.jpg"
       ],
       "ticketTypes": [
         {
@@ -118,10 +121,8 @@
       "location": "Blois",
       "region": "Loir-et-Cher",
       "heroImage": "https://www.blois.fr/sites/default/files/styles/original/public/media/images/blois-chateauroyal-201506-jpthibault-jdavid_0.jpg?itok=aO2L6qsx",
-     "gallery": [
-        "/chambord/chateau-chambord-02.jpg",
-        "/chambord/chateau-chambord-03.jpg",
-        "/chambord/chateau-chambord-04.jpg"
+      "gallery": [
+          "/blois/chateau-blois-02.jpg"
       ],
       "ticketTypes": [
         {
@@ -130,6 +131,11 @@
           "price": "€12",
           "affiliateUrl": "https://www.tiqets.com/en/blois-tickets-l104160/"
         }
+      ],
+      "fullDescription": [
+        "If you're looking for a snapshot of French history, few monuments offer as complete an experience as the Royal Château de Blois, a true jewel of the Loire Valley.",
+        "From grand kings to peace-seeking queens, the château’s walls echo with royal stories, blending Gothic, Renaissance, and Classical architecture in one magnificent ensemble.",
+        "Walk in the footsteps of Joan of Arc and Henry IV as you explore its halls, and uncover hidden wonders such as the mysteriously named Chamber of Secrets."
       ],
       "highlights": [
         "Dramatic spiral staircase",
@@ -148,11 +154,11 @@
       "shortDescription": "Famous for its stunning Renaissance gardens",
       "location": "Villandry",
       "region": "Indre-et-Loire",
-      "heroImage": "https://www.campinglesgranges.fr/wp-content/uploads/2022/01/chateau-villandry.jpg",
+      "heroImage": "/villandry/chateau-villandry-01.jpg",
       "gallery": [
-        "/chambord/chateau-chambord-02.jpg",
-        "/chambord/chateau-chambord-03.jpg",
-        "/chambord/chateau-chambord-04.jpg"
+        "/villandry/chateau-villandry-02.jpg",
+        "/villandry/chateau-villandry-01.jpg",
+        "/villandry/chateau-villandry-03.jpg"
       ],
       "ticketTypes": [
         {
