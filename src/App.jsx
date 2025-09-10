@@ -4,7 +4,7 @@ import Header from './components/layout/Header'
 import Footer from './components/layout/Footer'
 import ScrollToTop from './components/ui/ScrollToTop'
 import HomePage from './pages/HomePage'
-import CastleList from './pages/CastleList'
+import CastlesList from './pages/CastlesList'
 import CastleDetail from './pages/CastleDetail'
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
           <main className="flex-grow">
             <Routes>
               <Route path="/" element={<HomePage />} />
-              <Route path="/castles" element={<CastleList />} />
+              <Route path="/castles" element={<CastlesList />} />
               <Route path="/castles/:id" element={<CastleDetail />} />
             </Routes>
           </main>
