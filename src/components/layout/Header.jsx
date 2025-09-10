@@ -77,20 +77,6 @@ export default function Header() {
               >
                 All Castles
               </Link>
-              <a
-                href="#about"
-                onClick={toggleMenu}
-                className="block px-3 py-2 text-gray-700 hover:text-blue-600 hover:bg-gray-100 rounded-md font-medium transition-colors"
-              >
-                About
-              </a>
-              <a
-                href="#contact"
-                onClick={toggleMenu}
-                className="block px-3 py-2 text-gray-700 hover:text-blue-600 hover:bg-gray-100 rounded-md font-medium transition-colors"
-              >
-                Contact
-              </a>
               <div className="px-3 py-2">
                 <Link
                   to="/castles"
