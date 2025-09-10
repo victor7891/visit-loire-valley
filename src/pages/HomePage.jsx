@@ -17,8 +17,9 @@ export default function HomePage() {
       <div className="min-h-screen">
         {/* Hero Banner */}
         <HeroBanner 
-          title="Discover the Loire Valley Castles"
-          buttonText="Discover"
+          title="Discover the Majesty of the Loire Valley Castles"
+          subheadline="Walk through centuries of history, beauty, and grandeur."
+          buttonText="Book Your Tickets Today"
           buttonLink="/castles"
         />
 

@@ -35,18 +35,8 @@ export default function Header() {
             >
               All Castles
             </Link>
-            <a 
-              href="#about" 
-              className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
-            >
-              About
-            </a>
-            <a 
-              href="#contact" 
-              className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
-            >
-              Contact
-            </a>
+          
+            
             <Link 
               to="/castles" 
               className="bg-blue-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
